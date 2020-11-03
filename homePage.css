@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  background-color: black;
+  color: #2debe4;
+}
+
+h1 {
+  padding-top: 25px;
+  font-size: 40;
+  text-align: center;
+}
+
+h2 {
+  padding: 0 100px 100px 100px;
+}
+
+p {
+  font-size: 25;
+  padding: 100px 100px 0 100px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav {
+  height: 5.07%;
+  text-align: center;
+  border-color: #2debe4;
+  border-bottom: 2px solid;
+}
+
+#header{
+    height: 100px;
+  clear;
+}
+
+#logo{
+  width: 100px;
+  padding: 5px;
+  float: left;
+}
+
+#accountbox {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 89%;
+}
+
+#navbar {
+  margin-right: -20px;
+  float: left;
+  border: solid 2px #2debe4;
+  border-bottom: 0;
+  width: 20%;
+  height: 100%;
+}
+
+#main {
+  float: right;
+  border: solid 2px #2debe4;
+  border-bottom: 0;
+  width: 79.5%;
+  height: 100%;
+}
+
+#contactbox {
+  width: 200px;
+  position: absolute;
+  top: 100%;
+  left: 89%;
+}
