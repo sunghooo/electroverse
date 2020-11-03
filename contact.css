@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+	color:#2debe4;
+}
+
+#login{
+	text-align:right;
+}
+
+hr{
+	border:1px solid #2debe4;
+}
+
+.header {
+  padding-bottom: 20px;
+  
+  text-align: center;
+  font-size: 30px;
+}
+h1 {
+text-align: center;
+color:#2debe4;
+}
+
+table{
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+color:#2debe4;
+}
+
+button{
+background-color:#2debe4;
+padding: 12px 28px;
+margin-left:885px;
+font-size:20px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 25%;
+}
+.right{
+	float:right;
+	text-align:right;
+	vertical-align:bottom;
+
+}
+
+.middle {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
