@@ -72,3 +72,20 @@ a {
   top: 100%;
   left: 89%;
 }
+
+#accountdiv {
+ margin-top:150px;
+ text-align:center;
+}
+
+#accounttable{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+#accountbutton{
+background-color:#2debe4;
+padding: 12px 28px;
+margin-left:500px;
+font-size:20px;
+}

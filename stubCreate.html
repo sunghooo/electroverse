@@ -1,13 +1,34 @@
 <html>
 <head>
 <link rel="stylesheet" href="homePage.css">
+<script type = "text/javascript" src = "./stubCreate.js"></script>
 </head>
-<h1>Stub Account Create Page</h1>
+<h1>Create an Account </h1>
 
-<h2>This page will contain a form allowing users to sign up for an account.</h2>
-<a href="homePage.html"><h2>Click to return home</h2></a>
+
+
+<div id="accountdiv">
+	<table id="accounttable">
+	<tr>
+	<td> <h3> Username: </h3></td> <td> <input id="username" name="username" type="text" size ="65" /></label> </td>
+	</tr>
+	<tr>
+	<td><h3> Email:</h3></td> <td> <input id="email" name="email" type="text" size="65" /></label></td>
+	</tr>
+	<tr>
+	<td><h3> Password: </h3> </td><td><input id="password" name="password" type="text" size="65" /></label></td>
+	</tr>
+	<tr>
+	<td><h3> Retype Password:</h3></td> <td><input id="retype" name="retype" type="text" size="65" /></label></td>
+	</tr>
+	</table>
+	<h5 style=color:red>password must be between 6 characters  and 10 characters long and must contain at least one number and one letter and must be consisted of alphanumeric characters</h5>
+	<h5 style=color:red>Your username cannot be longer than 10 characters and must be consisted of alphanumeric characters</h5>
+	<button input onclick="verify(event);" type="submit" id="accountbutton">Create</button>
+</div>
 
 <div id="contactbox">
+  <a href="homePage.html"><h3>Click to return home</h3></a>
   <a href="contact.html"><h3>Contact Us Here!</h3></a>
   Last Updated: 11/2/2020
 </div>
