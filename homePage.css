@@ -1,10 +1,12 @@
 body{
   margin: 0;
+  height: 675px;
   background-color: black;
   color: #2debe4;
 }
 
 h1 {
+  width: 85%;
   padding-top: 25px;
   font-size: 40;
   text-align: center;
@@ -12,6 +14,11 @@ h1 {
 
 h2 {
   padding: 0 100px 100px 100px;
+}
+
+h3 {
+  margin-top: 0;
+  padding: 10px;
 }
 
 p {
@@ -24,8 +31,14 @@ a {
   text-decoration: none;
 }
 
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .nav {
-  height: 5.07%;
+  height: 50px;
   text-align: center;
   border-color: #2debe4;
   border-bottom: 2px solid;
@@ -66,9 +79,15 @@ a {
   height: 100%;
 }
 
+#content {
+  
+  width: 85%
+  margin: 0;
+}
+
 #contactbox {
   width: 200px;
   position: absolute;
-  top: 100%;
+  top: 90%;
   left: 89%;
 }
