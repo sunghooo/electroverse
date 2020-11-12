@@ -23,7 +23,7 @@ h3 {
 
 p {
   font-size: 25;
-  padding: 100px 100px 0 100px;
+  padding: 25px 100px 0 100px;
 }
 
 a {
@@ -88,6 +88,6 @@ a {
 #contactbox {
   width: 170px;
   margin-right: 0;
-  margin-top: 13%;
+  margin-top: 5%;
   float: right;
 }
