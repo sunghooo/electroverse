@@ -21,14 +21,21 @@
 		<td><label><h2> Contact info here(name/address/etc):</h2></label></td>
 	</tr>
 	<tr>
-		<td><input name="street" type="text" size ="65" /></label></td>
+        	<td><textarea name = "firstName" rows = "1" cols = "24" placeholder="First Name"></textarea></td>
+        	<td><textarea name = "lastName" rows = "1" cols = "24" placeholder="Last Name"></textarea></td>
+	</tr>
+	<tr>
+		<td><textarea name = "email" rows = "1" cols = "24" placeholder="E-mail"></textarea></td>
+        	<td><textarea name = "phone" rows = "1" cols = "24" placeholder="Phone Number (optional)"></textarea></td> 
 	</tr>
 
 </table>
 <br><br>
 <table>
 	<th><label><h2>Text field to write message:<h2></th>
-	<tr><td><textarea name="comments" rows="10" cols="60"> </textarea></td></tr></label>
+	<tr>
+        	<td><textarea name = "comments" rows = "10" cols = "51" placeholder="Questions, comments, or concerns"></textarea></td>
+	</tr>
 </table>
 <button type="button">send </button>
 </form>
