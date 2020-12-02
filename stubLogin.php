@@ -48,11 +48,8 @@ print <<<TOP
 <link rel="stylesheet" href="homePage.css">
 
 </head>
-<<<<<<< HEAD
+
 <h1 id="header" style=width:100%>Sign In</h1>
-=======
-<h1 id="header" style=width:100%>Create an Account </h1>
->>>>>>> e1e3aaab9a58960af67018c97de9c9d52332cd4a
 
 
 
@@ -60,7 +57,7 @@ print <<<TOP
 	<form method="post" action="$script">
 	<table id="accounttable">
 	<tr>
-<<<<<<< HEAD
+
 	<td> <h3> Username: </h3></td> <td> <input id="username" name="username" type="text" size ="65" required/></label> </td>
 	</tr>
 	<tr>
@@ -69,16 +66,6 @@ print <<<TOP
 	</table>
 
 	<a style=color:cyan href=stubCreate.php>First time user? click here to register</a>
-=======
-	<td> <h3> Username: </h3></td> <td> <input id="username" name="username" type="text" size ="65" /></label> </td>
-	</tr>
-	<tr>
-	<td><h3> Password: </h3> </td><td><input id="password" name="password" type="password" size="65" /></label></td>
-	</tr>
-	</table>
-
-	<a style=color:cyan href=stubCreate.html>First time user? click here to register</a>
->>>>>>> e1e3aaab9a58960af67018c97de9c9d52332cd4a
 	<button type="submit" name="submit" id="accountbutton">Create</button>
 	</form>
 </div>

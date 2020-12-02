@@ -56,7 +56,7 @@ print <<<TOP
 	<form method="post" action="$script">
 	<table id="accounttable">
 	<tr>
-<<<<<<< HEAD
+
 	<td> <h3> Username: </h3></td> <td> <input id="username" name="username" type="text" size ="65" required/></label> </td>
 	</tr>
 	<tr>
@@ -67,18 +67,6 @@ print <<<TOP
 	</tr>
 	<tr>
 	<td><h3> Retype Password:</h3></td> <td><input id="retype" name="retype" type="password" size="65" required/></label></td>
-=======
-	<td> <h3> Username: </h3></td> <td> <input id="username" name="username" type="text" size ="65" /></label> </td>
-	</tr>
-	<tr>
-	<td><h3> Email:</h3></td> <td> <input id="email" name="email" type="text" size="65" /></label></td>
-	</tr>
-	<tr>
-	<td><h3> Password: </h3> </td><td><input id="password" name="password" type="text" size="65" /></label></td>
-	</tr>
-	<tr>
-	<td><h3> Retype Password:</h3></td> <td><input id="retype" name="retype" type="text" size="65" /></label></td>
->>>>>>> e1e3aaab9a58960af67018c97de9c9d52332cd4a
 	</tr>
 	<tr>
 		<td><h3>Favorite Artist:</h3></td> <td>Illenium<input name="illenium" type="checkbox" value="illenium"> Alan Walker<input name="alan" type="checkbox" value="alan">Kygo<input name="kygo" type="checkbox" value="kygo">Martin Garrix<input name="martin" type="checkbox" value="martin">Porter Robinson<input name="porter" type="checkbox" value="porter">Flume<input name="flume" type="checkbox" value="flume"></td></tr>
@@ -97,11 +85,8 @@ print <<<TOP
 	</table>
 	
 	<br/>
-<<<<<<< HEAD
+
 	<a style=color:cyan href=stubLogin.php>Already have an account? click here to sign in</a>
-=======
-	<a style=color:cyan href=stubLogin.html>Already have an account? click here to sign in</a>
->>>>>>> e1e3aaab9a58960af67018c97de9c9d52332cd4a
 	<button type="submit" name="submit" id="accountbutton">Create</button>
 	</form>
 </div>
