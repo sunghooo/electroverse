@@ -10,23 +10,22 @@ function verify(event){
 	var emal=/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 	if (user.test(username)&& pass.test(password1) && password1==repeat && emal.test(email)){
 		alert("User validated")
-		return
+		return true
 	}
 	else if (user.test(username)== false){
 		alert("Invalid username")
-		return
+		return false
 	}
 	else if (pass.test(password1)== false) {
-		console.log('huh')
 		alert("Invalid password")
-		return
+		return false
 	}
 	else if (emal.test(email)== false) {
 		alert("Invalid email")
-		return
+		return false
 	}
 	else if (password1!=repeat){
 		alert("password does not match")
-		return
+		return false
 	}
 }
