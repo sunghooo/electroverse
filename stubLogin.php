@@ -1,4 +1,60 @@
 <?php
+  error_reporting(E_ALL);
+ini_set("display_errors","on");
+$script=$_SERVER['PHP_SELF'];
+if (isset($_POST["submit"])){
+	dosql();
+}
+
+
+function dosql(){
+  $server="fall-2020.cs.utexas.edu";
+  $user="cs329e_bulko_sungho98";
+  $pwd="melt2raid6Mood";
+  $dbName="cs329e_bulko_sungho98";
+
+  $mysqli= new mysqli($server, $user, $pwd, $dbName);
+  if ($mysqli-> connect_errno) {
+	die ('Connect Error: '. $mysqli->connect_errno .":" . $mysqli->connect_error);
+  }
+
+  
+	    
+  $mysqli->select_db($dbName) or die($mysqli->error);
+	    
+  $user=$_POST["username"];
+  $pass=$_POST["password"];
+  var_dump($user);
+  var_dump($pass);
+
+  $query= "SELECT * FROM passwords WHERE Username= '$user'";
+  $result=$mysqli->query($query) or die($mysqli->error);
+	     
+
+	      
+  $row= $result->fetch_array(MYSQLI_ASSOC);
+  var_dump($row);
+   if ($row['ID']==""){	
+	   $msg="Incorrect username or passwordsss";
+	  print '<script type="text/javascript">alert("'.$msg.'")</script>'; 
+				    }
+	       
+
+	        
+   else if($row['Password']!= $pass){
+	   $msg="Incorrect username or password";
+	   print '<script type="text/javascript">alert("'.$msg.'")</script>';
+   }
+	
+	
+   else{
+	  header("location: stubAccount.php?user=$user");
+	}
+
+
+}
+
+/*
 $visited='visited';
 $script=$_SERVER['PHP_SELF'];
 
@@ -41,6 +97,7 @@ function wrong(){
 function nextstep(){
 	header("Location:stubAccount.html");
 }
+ */
 print <<<TOP
 <html lang="en">
 
